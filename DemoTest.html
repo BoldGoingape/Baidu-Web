@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>渐变效果</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <style>
+        #grad1 {
+            height: 150px;
+            width: 200px;
+            margin: 0 auto;
+            background-color: red;
+            /* 浏览器不支持的时候显示 */
+            background-image: radial-gradient(red, green, blue);
+            /* 标准的语法（必须放在最后） */
+        }
+    </style>
+</head>
+
+<body>
+
+    <h3>径向渐变 - 颜色结点均匀分布</h3>
+    <div id="grad1"></div>
+    <div class="ap-background-layer" style="width: 100%;height: 580px;
+    opacity: 1;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./image/1616567093197.png);
+    background-attachment: auto;">
+    </div>
+
+</body>
+
+</html>
